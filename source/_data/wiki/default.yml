@@ -1,0 +1,5 @@
+# Stellar Wiki 项目配置（键名 wiki/default 会被主题识别）
+# 项目首页由主题根据 layout: wiki + wiki: default 的页面自动生成
+name: 默认项目
+title: 项目说明
+sort: 0
