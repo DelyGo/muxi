@@ -1,5 +1,10 @@
 # Stellar 主题配置（参考 https://github.com/xaoxuu/hexo-theme-stellar-examples/tree/main/blog）
 # 完整选项见：https://xaoxuu.com/wiki/stellar/
+#
+# 图标说明：菜单 icon 来自主题 _data/icons.yml（如 solar:documents-bold-duotone）。
+# 自定义 icon：在下方 icons 里添加 key: 值，再在 menubar.items 里写 icon: 你的key。
+# 值可以是：① 内联 SVG 字符串  ② 图片 URL（/assets/xx.svg 或 https://...）
+# 例如把「博客」改成自定义图标：icons 里加 myblog: '/assets/blog.svg'，menubar 里该条写 icon: myblog
 
 preconnect:
   - https://gcore.jsdelivr.net
@@ -9,6 +14,12 @@ preconnect:
 logo:
   title: 小沐希
   subtitle: '记录与分享'
+
+# 自定义图标（可选）：取消注释并填写后，在 menubar.items 里用 icon: 自定义键名
+# icons:
+#   myblog: '/assets/blog.svg'                    # 本地图片，需放在 source/assets/
+#   myblog: 'https://example.com/icon.svg'       # 或外链图片
+#   myblog: '<svg xmlns="..." width="32" height="32">...</svg>'  # 或内联 SVG
 
 menubar:
   items:
