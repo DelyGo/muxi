@@ -1,0 +1,71 @@
+# Stellar 主题配置（参考 https://github.com/xaoxuu/hexo-theme-stellar-examples/tree/main/blog）
+# 完整选项见：https://xaoxuu.com/wiki/stellar/
+
+preconnect:
+  - https://gcore.jsdelivr.net
+  - https://unpkg.com
+  - https://cdn.bootcdn.net
+
+logo:
+  title: 小沐希
+  subtitle: '记录与分享'
+
+menubar:
+  items:
+    - id: post
+      theme: '#1BCDFC'
+      icon: solar:documents-bold-duotone
+      title: 博客
+      url: /
+    - id: topic
+      theme: '#3DC550'
+      icon: solar:notebook-bookmark-bold-duotone
+      title: 项目
+      url: /wiki/
+    - id: explore
+      theme: '#FA6400'
+      icon: solar:planet-bold-duotone
+      title: 探索
+      url: /explore/
+    - id: social
+      theme: '#F44336'
+      icon: solar:chat-square-like-bold-duotone
+      title: 社交
+      url: /friends/
+
+# 项目/Wiki 目录（至少一个项目后 /wiki/ 才会正常）
+wiki:
+  tree:
+    default:
+      name: 默认项目
+      title: 项目说明
+      homepage: 项目说明
+
+site_tree:
+  home:
+    sidebar: starter, welcome, recent
+  index_blog:
+    sidebar: starter, welcome, recent
+  index_wiki:
+    menu_id: topic
+  index_topic:
+    menu_id: topic
+  wiki:
+    menu_id: topic
+  topic:
+    menu_id: topic
+
+article:
+  share: [wechat, weibo, email, link]
+
+style:
+  text-align: justify
+  smooth_scroll: false
+  codeblock:
+    scrollbar: 0px
+  font-size:
+    body: 1rem
+  font-family:
+    body: '"LXGW WenKai Screen", system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif'
+    code: '"LXGW WenKai Screen", Menlo, Monaco, Consolas, system-ui, "Courier New", monospace, sans-serif'
+    codeblock: 'Menlo, Monaco, Consolas, system-ui, "Courier New", monospace, sans-serif'
