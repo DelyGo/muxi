@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 沐希科技     
+title: 小沐希     
 subtitle: 记录与分享
 description: '个人博客 - Hexo + Stellar'
 keywords:
-author: 沐希科技
+author: 小沐希
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
-# URL（GitHub Pages 项目页：https://DelyGo.github.io/muxi/）
-url: https://DelyGo.github.io/muxi
-root: /muxi/
+# URL（自定义域名，根与 www 均可用）
+url: https://muxisoft.com
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
