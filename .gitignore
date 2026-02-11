@@ -1,5 +1,7 @@
 node_modules/
 public/
 .deploy_git/
+.deploy_gh_pages/
+db.json
 *.log
 .DS_Store
